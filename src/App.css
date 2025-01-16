@@ -1,0 +1,64 @@
+/* body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: Nunito, sans-serif;
+    margin: 0;
+} */
+
+body{
+    cursor: none;
+}
+
+ .allLink [aria-current]{
+     color: rgb(231,71,91); 
+ }
+main{
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+
+main.dark {
+    --background-color: hsl(240, 5%, 9%); 
+    --text-color: rgb(217, 212, 212);
+    --elements-color: hsl(209, 23%, 22%);
+}
+/* main input, main textarea {
+    background-color: var(--elements-color); /* Use the variable */
+    /* color: var(--text-color);               /* Use the variable */
+    /* border: 1px solid var(--text-color);    Optional: for better visibility */
+ */ */
+
+/* main.dark input, main.dark textarea {
+    --background-color: hsl(0, 0%, 1%); 
+    --text-color: rgb(242, 235, 235);
+    --elements-color: hsl(240, 5%, 9%); 
+    border: none;
+  } */
+
+  .overLayBanner{
+    background-color: rgba(0, 0, 0, 0.304);
+  }
+
+.cursor-dot{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(100, 10, 10);
+}
+  .cursor-outline{
+    width: 40px;
+    height: 40px;
+  
+    border: 2px solid  rgb(22, 18, 18);
+  }
+
+  .cursor-dot,
+  .cursor-outline{
+    position: fixed;
+    top: 0;
+    left: 0;
+   transform: translate(-50%,-50%);
+   border-radius: 50%;
+   z-index: 20;
+   pointer-events: none;
+  }

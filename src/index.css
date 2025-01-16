@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+    color:#fb7185;
+}
+.overlay{
+    background-color: rgba(7, 20, 17, 0.9);
+  
+}
+
+.Image{
+    background-size: cover;
+    background: url('src/assets/startup-594090_1920.jpg') no-repeat center center fixed;
+    animation: changeImg infinite 12s forwards;
+}
+.slides{
+  transition: all 2s ease-in-out;
+}
+.shadowGive{
+    box-shadow: 0px 0px 20px 1px black;
+}
+.container:hover{
+    background-color: black;
+    
+    transition: all 1s ease-in-out;
+   
+}
+.container:hover p {
+    color: rgb(214, 205, 205);
+      }
+.container:hover div {
+    color: rgb(214, 205, 205);
+      }
+
+.wrapper{
+    mask-image: linear-gradient(to right,rgba(0,0,0,0),
+    rgba(0,0,0,1) 20%,
+    rgba(0,0,0,1) 80%,
+    rgba(0,0,0,0));
+}
+
+.scrollImage{
+    animation: scroll 30s linear infinite;
+}
+.scrollImage2{
+    animation: scroll2 30s linear infinite;
+    
+}
+.crousalEffect{
+    transition: all 0.8s ease-in;
+}
+
+.animation{
+    transition: all 2s ease-in-out;
+}h1 {
+    font-size: 2em;         /* Larger size */
+          /* Vertical spacing */
+  }
+  h2 {
+    font-size: 1.5em;
+   
+  }
+  h3 {
+    font-size: 1.17em;
+   
+  }
+  h4 {
+    font-size: 1em;
+
+  }
+  h5 {
+    font-size: 0.83em;
+ 
+  }
+  h6 {
+    font-size: 0.67em;
+   
+  }
+
+@keyframes scroll {
+  
+   to{
+    left: -200px;
+    }
+  }
+@keyframes scroll2 {
+  
+   to{
+    right: -200px;
+    }
+  }
+
+@keyframes changeImg{
+    0%{
+        background-image: url('src/assets/desk-1284085_1920.jpg');
+
+    }
+    25%{
+        background-image:url('src/assets/student-849821_1920.jpg')
+
+    }
+    50%{
+        background-image: url('src/assets/people-2557396_1920.jpg');
+    }
+    75%{
+        background-image: url('src/assets/startup-594090_1920.jpg');
+    }
+    100%{
+        background-image:url('src/assets/student-849821_1920.jpg')
+    }
+}
+
+
+
+
+
+
+    .showSmooth{
+        transition: 0.83s ease-in-out;
+    }
+
+    @media (max-width:420px){
+        .UsingGrid {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+        .smallDiv{
+            width: 250px;
+        }
+    }
+    @media (min-width:400px){
+        .imgContainer {
+            width:270px ;
+            height: 170px;
+        }
+        
+    }
+    /* @media (max-width:450px){
+        .shadowGive{
+            height: 200px;
+        }
+        
+    } */
+
+    @media (max-width:450px){
+        .contributecontainer {
+            grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+    }
