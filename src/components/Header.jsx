@@ -1,12 +1,12 @@
 import React, { useContext, useEffect } from "react";
-import blogLogo from "../assets/blog_logo-removebg-preview (1).png";
+// import blogLogo from "public/blog_logo-removebg-preview (1).png";
 import { useState } from "react";
 import HomePage from "./HomePage";
 import Manage from "./Manage";
 import { Link, NavLink } from "react-router-dom";
 
 import PopUp from "./PopUp";
-import blogImage from '../assets/blog-pink-dotes.png'
+import blogImage from '/public/blog-pink-dotes.png'
 import { BioContext } from "../contexts/ShowContext";
 
 export default function Header() {

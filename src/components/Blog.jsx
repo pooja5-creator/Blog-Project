@@ -1,5 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
-import bannerImage from '../assets/notebooks-569121_1280.jpg'
+import bannerImage from '/public/notebooks-569121_1280.jpg'
  import ImageData from '../SliderImage.jsx'
  export default function Blog() {
   

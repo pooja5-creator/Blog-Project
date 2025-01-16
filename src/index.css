@@ -12,7 +12,7 @@
 
 .Image{
     background-size: cover;
-    background: url('src/assets/startup-594090_1920.jpg') no-repeat center center fixed;
+    background: url('public/startup-594090_1920.jpg') no-repeat center center fixed;
     animation: changeImg infinite 12s forwards;
 }
 .slides{
@@ -94,21 +94,21 @@
 
 @keyframes changeImg{
     0%{
-        background-image: url('src/assets/desk-1284085_1920.jpg');
+        background-image: url('public/desk-1284085_1920.jpg');
 
     }
     25%{
-        background-image:url('src/assets/student-849821_1920.jpg')
+        background-image:url('public/student-849821_1920.jpg')
 
     }
     50%{
-        background-image: url('src/assets/people-2557396_1920.jpg');
+        background-image: url('public/people-2557396_1920.jpg');
     }
     75%{
-        background-image: url('src/assets/startup-594090_1920.jpg');
+        background-image: url('public/startup-594090_1920.jpg');
     }
     100%{
-        background-image:url('src/assets/student-849821_1920.jpg')
+        background-image:url('public/student-849821_1920.jpg')
     }
 }
 

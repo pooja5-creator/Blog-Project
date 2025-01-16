@@ -1,5 +1,5 @@
 import React from 'react'
-import blogImage from '../assets/blog-pink-dotes.png'
+import blogImage from '/public/blog-pink-dotes.png'
 import { Link } from 'react-router-dom'
 export default function Footer() {
   return (

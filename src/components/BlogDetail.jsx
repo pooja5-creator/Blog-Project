@@ -37,7 +37,7 @@ useEffect(()=>{
  <div className='w-full md:w-[50%] h-[400px] md:h-[600px]  flex justify-center  items-center 
  gap-2 md:gap-3 flex-col 
  p-3 '>
-  <div className='w-[180px] h-[180px] rounded-[50%]  overflow-hidden shadowGive ' data-aos="fade-up"><img className='w-full h-full object-cover' src="src/assets/ai-generated-8795619_1920.jpg" alt="" /></div>
+  <div className='w-[180px] h-[180px] rounded-[50%]  overflow-hidden shadowGive ' data-aos="fade-up"><img className='w-full h-full object-cover' src="public/ai-generated-8795619_1920.jpg" alt="" /></div>
   <h1 className='text-[23px] font-bold text-rose-500' data-aos="fade-up">{item.author}</h1>
   <p className='text-[19px] sm:text-[23px] text-center font-bold w-full  sm:w-[90%]' data-aos="fade-up">{item.title}</p>
   <div className='flex justify-center items-center gap-5 text-rose-500' data-aos="fade-up">

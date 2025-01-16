@@ -5,7 +5,7 @@ import { useEffect } from "react";
 import PeopleData from '../Contributes.js'
 import '../index.css'
 import { Link, useParams } from "react-router-dom";
-import blogImage from '../assets/blog-pink-dotes.png'
+import blogImage from '/public/blog-pink-dotes.png'
 import { BioContext } from "../contexts/ShowContext.jsx";
 
 
