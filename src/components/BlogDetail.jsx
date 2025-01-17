@@ -2,7 +2,7 @@ import React, { useContext, useEffect } from 'react'
 import blogData from '../NewBlogData.js'
 import { useParams } from 'react-router-dom';
 import Markdown from 'react-markdown';
-
+import image from '/public/ai-generated-8795619_1920.jpg'
 import { Link } from 'react-router-dom';
 import { BioContext } from '../contexts/ShowContext.jsx';
 export default function BlogDetail() {
@@ -29,7 +29,7 @@ useEffect(()=>{
     return (
     
      <main className={`w-full  min-h-[800px] ${isDark?"dark":''} `} data-aos="fade-up">
-      <div className={`w-full h-[300px] bg-cover bg-center  flex justify-center items-center`}  style={{ backgroundImage: `url(${item.image})` }}>
+      <div key={item.id} className={`w-full h-[300px] bg-cover bg-center  flex justify-center items-center`}  style={{ backgroundImage: `url(${item.image})` }}>
       <h1 className='text-[25px] sm:text-[30px] p-3 md:text-3xl text-gray-200 font-bold text-center' data-aos="fade-up">{item.title}</h1>
       </div>
      
@@ -37,17 +37,17 @@ useEffect(()=>{
  <div className='w-full md:w-[50%] h-[400px] md:h-[600px]  flex justify-center  items-center 
  gap-2 md:gap-3 flex-col 
  p-3 '>
-  <div className='w-[180px] h-[180px] rounded-[50%]  overflow-hidden shadowGive ' data-aos="fade-up"><img className='w-full h-full object-cover' src="public/ai-generated-8795619_1920.jpg" alt="" /></div>
+  <div className='w-[180px] h-[180px] rounded-[50%]  overflow-hidden shadowGive ' data-aos="fade-up"><img className='w-full h-full object-cover' src={image} alt="" /></div>
   <h1 className='text-[23px] font-bold text-rose-500' data-aos="fade-up">{item.author}</h1>
   <p className='text-[19px] sm:text-[23px] text-center font-bold w-full  sm:w-[90%]' data-aos="fade-up">{item.title}</p>
   <div className='flex justify-center items-center gap-5 text-rose-500' data-aos="fade-up">
   <Link to="#facebook" className="text-3xl bg-black  text-rose-500 w-[50px] h-[50px] flex justify-center items-center rounded-[50%] cursor-pointer "><i className="fa-brands fa-facebook-f"></i></Link>
   <Link to="#instagram" className="text-3xl bg-black  text-rose-500 w-[50px] h-[50px] flex justify-center items-center rounded-[50%] 
-  cursor-pointer "><i class="fa-brands fa-square-instagram"></i></Link>
+  cursor-pointer "><i className="fa-brands fa-square-instagram"></i></Link>
   <Link to="#linkdin"   className="text-3xl bg-black text-rose-500 w-[50px] h-[50px] flex justify-center items-center rounded-[50%]  
-  cursor-pointer"><i class="fa-brands fa-linkedin-in"></i></Link>
+  cursor-pointer"><i className="fa-brands fa-linkedin-in"></i></Link>
   <Link to="#twitter" className="text-3xl text-rose-500 bg-black w-[50px] h-[50px] flex justify-center items-center 
-  cursor-pointer rounded-[50%]"><i class="fa-brands fa-twitter"></i></Link></div>
+  cursor-pointer rounded-[50%]"><i className="fa-brands fa-twitter"></i></Link></div>
  </div>
 
       <div key={item.id} className='max-w-[700px] bg-black m-3 min-h-[800px] p-5 rounded-lg'>

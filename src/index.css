@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 ::selection{
     color:#fb7185;
 }
@@ -11,8 +14,9 @@
 }
 
 .Image{
+    
+    background: url('https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_640.jpg') no-repeat center center fixed;
     background-size: cover;
-    background: url('public/startup-594090_1920.jpg') no-repeat center center fixed;
     animation: changeImg infinite 12s forwards;
 }
 .slides{
@@ -94,21 +98,21 @@
 
 @keyframes changeImg{
     0%{
-        background-image: url('public/desk-1284085_1920.jpg');
+        background-image: url('https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849822_640.jpg');
 
     }
     25%{
-        background-image:url('public/student-849821_1920.jpg')
+        background-image:url('https://cdn.pixabay.com/photo/2016/06/25/12/52/laptop-1478822_640.jpg')
 
     }
     50%{
-        background-image: url('public/people-2557396_1920.jpg');
+        background-image: url('https://cdn.pixabay.com/photo/2016/02/07/21/03/computer-1185626_640.jpg');
     }
     75%{
-        background-image: url('public/startup-594090_1920.jpg');
+        background-image: url('https://cdn.pixabay.com/photo/2015/01/08/18/26/man-593333_640.jpg');
     }
     100%{
-        background-image:url('public/student-849821_1920.jpg')
+        background-image:url('https://cdn.pixabay.com/photo/2016/03/27/20/12/desk-1284085_640.jpg')
     }
 }
 

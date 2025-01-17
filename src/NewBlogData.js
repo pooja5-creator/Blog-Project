@@ -1,10 +1,54 @@
 import { image } from "framer-motion/client";
+import image1 from '/public/student-849821_1920.jpg'
+import image2 from '/public/people-2557396_1920.jpg'
+import image3 from '/public/notebooks-569121.jpg'
+import image4 from '/public/student-849821_1920.jpg'
+import image5 from '/public/HeatlImages/medicinal-herb-4881474_1920.jpg'
+import image6 from '/public/HeatlImages/raspberries-and-blackberries-5001160_1920.jpg'
+import image7 from '/public/HeatlImages/yoga-4300033_1920.jpg'
+import image8 from '/public/HeatlImages/background-8266762_1920.jpg'
+import image9 from '/public/HeatlImages/baby-1151348_1920.jpg'
+import image10 from '/public/student-849821_1920.jpg'
+import image11 from '/public/HeatlImages/glass-4439673_1920.jpg'
+import image12 from '/public/HeatlImages/glass-4439673_1920.jpg'
+import image13 from '/public/HeatlImages/ai-generated-8862000_1920.jpg'
+import image14 from '/public/HeatlImages/ai-generated-8772472_1920.jpg'
+import image15 from '/public/FintexhImages/light-bulbs-5488573_1920.jpg'
+import image16 from '/public/FintexhImages/finance-8836902_1920.jpg'
+import image17 from '/public/FintexhImages/car-8598762_1920.jpg'
+import image18 from '/public/FintexhImages/arrow-5161490_1920.jpg'
+import image19 from '/public/FintexhImages/ai-generated-8780351_1920.png'
+import image20 from '/public/AIImages/artificial-intelligence-5866644_1920.jpg'
+import image21 from '/public/AIImages/ai-generated-8972188_1920.jpg'
+import image22 from '/public/AIImages/medical-8562583_1920.jpg'
+import image23 from '/public/AIImages/ai-generated-8972188_1920.jpg'
+import image24 from '/public/AIImages/blockchain-8008051_1920.jpg'
+import image25 from '/public/SecurityImages/security-1202344_1920.png'
+import image26 from '/public/SecurityImages/hacker-8033977_1920.jpg'
+import image27 from '/public/SecurityImages/computer-1231889_1280.jpg'
+import image28 from '/public/SecurityImages/binary-1327493_1280.jpg'
+import image29 from '/public/SecurityImages/ai-generated-8640893_1920.jpg'
+import image30 from '/public/AppIamges/finance-8045003_1920.jpg'
+import image31 from '/public/AppIamges/white-male-1856187_1920.jpg'
+import image32 from '/public/people-2557396_1920.jpg'
+import image33 from '/public/AppIamges/ai-generated-8365422_1920.jpg'
+import image34 from '/public/AppIamges/app-8178740_1920.jpg'
+import image35 from '/public/WorkImages/ai-generated-9146428_1920.jpg'
+import image36 from '/public/WorkImages/office-8748036_1920.png'
+import image37 from '/public/WorkImages/ai-generated-7861355_1920.jpg'
+import image38 from '/public/WorkImages/ai-generated-9030608_1920.jpg'
+import image39 from '/public/WorkImages/entrepreneur-696959_1920.jpg'
+import image40 from '/public/EnterPriseImages/digitization-7261158_1920.jpg'
+import image41 from '/public/EnterPriseImages/ai-generated-8723113_1920.jpg'
+import image42 from '/public/EnterPriseImages/woman-8656655_1920.jpg'
+import image43 from '/public/EnterPriseImages/hands-6135743_1920.jpg'
+import image44 from '/public/EnterPriseImages/ai-generated-8592394_1920.jpg'
 
 const blogData=[
 
   {
     id:'1',
-  image:'public/student-849821_1920.jpg',
+  image:image1,
   title:"The Rise of Social Media: Connecting a Global Audience",
   content:'Social media connects the world, breaking barriers and fostering global communities. It empowers communication, sharing, and innovation while shaping a more connected digital era.',
   author: "Dr. Sarah Mitchell",
@@ -14,7 +58,7 @@ const blogData=[
 
   {
     id:'2',
-  image:'public/people-2557396_1920.jpg',
+  image:image2,
   title:"The Role of AI in Social Interactions",
   content:'AI is transforming social interactions by personalizing experiences, enhancing communication, and automating tasks. From chatbots to recommendation systems, AI is shaping how we connect in the digital age.',
   author: "Dr. Rohika Mitchell",
@@ -23,7 +67,7 @@ const blogData=[
   },
   {
     id:'3',
-  image:'public/notebooks-569121.jpg',
+  image:image3,
   title:"How Social Technology Impacts Mental Health",
   content:'Social technology has both positive and negative effects on mental health. While it connects people and provides support, excessive use can lead to anxiety, depression, and social isolation. Finding a balance is key.',
   author: "Dr. Rohika Mitchell",
@@ -33,7 +77,7 @@ const blogData=[
 
   {
     id:'4',
-  image:'public/student-849821_1920.jpg',
+  image:image4,
   title:"The Rise of Social Media: Connecting a Global Audience",
   content:'Social media connects the world, breaking barriers and fostering global communities. It empowers communication, sharing, and innovation while shaping a more connected digital era.',
   author: "Dr. Sarah Mitchell",
@@ -43,7 +87,7 @@ const blogData=[
 
     {
         id: 5,
-        image:'public/HeatlImages/medicinal-herb-4881474_1920.jpg',
+        image:image5,
         title: "5 Essential Daily Habits to Transform Your Physical and Mental Health",
         author: "Dr. Sarah Mitchell",
         publishedDate: "2025-01-10",
@@ -53,7 +97,7 @@ const blogData=[
       },
         {
           id: 6,
-          image:'public/HeatlImages/raspberries-and-blackberries-5001160_1920.jpg',
+          image:image6,
           title: "The Incredible Health Benefits of Adopting a Plant-Based Diet for Your Lifestyle",
           author: "James Carter",
           publishedDate: "2025-01-08",
@@ -63,7 +107,7 @@ const blogData=[
         },
         {
           id: 7,
-          image: 'public/HeatlImages/yoga-4300033_1920.jpg',
+          image: image7,
           title: "Yoga: The Ultimate Practice for Achieving Mental Clarity and Physical Strength",
           author: "Emily Grace",
           publishedDate: "2025-01-05",
@@ -73,7 +117,7 @@ const blogData=[
         },
         {
           id: 8,
-          image:'public/HeatlImages/background-8266762_1920.jpg',
+          image:image8,
           title: "Why Gut Health is the Foundation of Your Overall Well-Being and Immune System",
           author: "Dr. Michael Brown",
           publishedDate: "2025-01-03",
@@ -83,7 +127,7 @@ const blogData=[
         },
         {
           id: 9,
-          image:'public/HeatlImages/baby-1151348_1920.jpg',
+          image:image9,
           title: "The Science Behind Quality Sleep: How Rest Impacts Your Body and Mind",
           author: "Sophia Wilson",
           publishedDate: "2025-01-01",
@@ -93,7 +137,7 @@ const blogData=[
         },
         {
           id: 10,
-          image:'public/HeatlImages/patient-7408733_1920.png',
+          image:image10,
           title: "Effective Stress Management: Proven Tips and Techniques for a Balanced Life",
           author: "Daniel Martinez",
           publishedDate: "2024-12-28",
@@ -103,7 +147,7 @@ const blogData=[
         },
         {
           id: 11,
-          image:'public/HeatlImages/glass-4439673_1920.jpg',
+          image:image11,
           title: "Hydration and Health: Why Drinking Enough Water is Crucial for Your Body",
           author: "Dr. Olivia Harris",
           publishedDate: "2024-12-25",
@@ -113,7 +157,7 @@ const blogData=[
         },
         {
           id: 12,
-          image:'public/HeatlImages/ai-generated-8931940_1920.png',
+          image:image12,
           title: "Top Superfoods to Strengthen Your Immune System and Fight Off Illness",
           author: "Patricia Anderson",
           publishedDate: "2025-01-07",
@@ -123,7 +167,7 @@ const blogData=[
         },
         {
           id: 13,
-          image:'public/HeatlImages/ai-generated-8862000_1920.jpg',
+          image:image13,
           title: "Stay Active During Winter: Tips for Maintaining Your Fitness Routine",
           author: "Chris Taylor",
           publishedDate: "2025-01-09",
@@ -133,7 +177,7 @@ const blogData=[
         },
         {
           id: 14,
-          image:'public/HeatlImages/ai-generated-8772472_1920.jpg',
+          image:image14,
           title: "Debunking Common Nutrition Myths: Facts You Need to Know for Better Health",
           author: "Emma Roberts",
           publishedDate: "2025-01-12",
@@ -144,7 +188,7 @@ const blogData=[
 
         {
           id: 15,
-          image:'public/FintexhImages/light-bulbs-5488573_1920.jpg',
+          image:image15,
           title: "The Future of Digital Payments: Trends Shaping the Fintech Industry in 2025",
           author: "Lisa Morgan",
           publishedDate: "2025-01-12",
@@ -154,7 +198,7 @@ const blogData=[
         },
         {
           id: 16,
-          image:'public/FintexhImages/finance-8836902_1920.jpg',
+          image:image16,
           title: "Understanding Blockchain Technology: The Backbone of Modern Fintech Innovations",
           author: "Dr. Kevin Lee",
           publishedDate: "2025-01-10",
@@ -164,7 +208,7 @@ const blogData=[
         },
         {
           id: 17,
-          image:'public/FintexhImages/car-8598762_1920.jpg',
+          image:image17,
           title: "How Fintech Startups are Redefining Small Business Lending in a Digital Era",
           author: "Emily Carter",
           publishedDate: "2025-01-08",
@@ -174,7 +218,7 @@ const blogData=[
         },
         {
           id: 18,
-          image:'public/FintexhImages/arrow-5161490_1920.jpg',
+          image:image18,
           title: "Robo-Advisors: The Rise of Automated Financial Planning for Investors",
           author: "David Brown",
           publishedDate: "2025-01-07",
@@ -184,7 +228,7 @@ const blogData=[
         },
         {
           id: 19,
-          image:'public/FintexhImages/ai-generated-8780351_1920.png',
+          image:image19,
           title: "The Role of Artificial Intelligence in Fraud Detection and Financial Security",
           author: "Sophia Lee",
           publishedDate: "2025-01-05",
@@ -194,7 +238,7 @@ const blogData=[
         },
         {
           id: 20,
-          image:'public/AIImages/artificial-intelligence-5866644_1920.jpg',
+          image:image20,
           title: "Artificial Intelligence: Transforming Industries and Shaping the Future",
           author: "Sophia Clark",
           publishedDate: "2025-01-12",
@@ -204,7 +248,7 @@ const blogData=[
         },
         {
           id: 21,
-          image:'public/AIImages/ai-generated-8972188_1920.jpg',
+          image:image21,
           title: "Machine Learning vs. Deep Learning: Key Differences Explained",
           author: "Ethan Morgan",
           publishedDate: "2025-01-10",
@@ -214,7 +258,7 @@ const blogData=[
         },
         {
           id: 22,
-          image:'public/AIImages/medical-8562583_1920.jpg',
+          image:image22,
           title: "AI in Healthcare: Saving Lives with Advanced Technologies",
           author: "Emma Johnson",
           publishedDate: "2025-01-08",
@@ -224,7 +268,7 @@ const blogData=[
         },
         {
           id: 23,
-          image:'public/AIImages/ai-generated-8972188_1920.jpg',
+          image:image23,
           title: "The Role of AI in Autonomous Vehicles: Driving the Future of Transportation",
           author: "Michael Brown",
           publishedDate: "2025-01-06",
@@ -234,7 +278,7 @@ const blogData=[
         },
         {
           id: 24,
-          image:'public/AIImages/blockchain-8008051_1920.jpg',
+          image:image24,
           title: "Natural Language Processing: How AI Understands and Generates Human Language",
           author: "Olivia Williams",
           publishedDate: "2025-01-04",
@@ -244,7 +288,7 @@ const blogData=[
         },
         {
           id: 25,
-          image:'public/SecurityImages/security-1202344_1920.png',
+          image:image25,
           title: "Cybersecurity in 2025: Emerging Threats and How to Stay Protected",
           author: "James Carter",
           publishedDate: "2025-01-12",
@@ -254,7 +298,7 @@ const blogData=[
         },
         {
           id: 26,
-          image:'public/SecurityImages/hacker-8033977_1920.jpg',
+          image:image26,
           title: "The Importance of Multi-Factor Authentication in Securing Online Accounts",
           author: "Emily Roberts",
           publishedDate: "2025-01-10",
@@ -264,7 +308,7 @@ const blogData=[
         },
         {
           id: 27,
-          image:'public/SecurityImages/computer-1231889_1280.jpg',
+          image:image27,
           title: "Top 10 Best Practices for Protecting Your Privacy Online",
           author: "Sarah Williams",
           publishedDate: "2025-01-08",
@@ -274,7 +318,7 @@ const blogData=[
         },
         {
           id: 28,
-          image:'public/SecurityImages/binary-1327493_1280.jpg',
+          image:image28,
           title: "Understanding Zero Trust Security: The New Standard for Digital Protection",
           author: "David Wilson",
           publishedDate: "2025-01-06",
@@ -284,7 +328,7 @@ const blogData=[
         },
         {
           id: 29,
-          image:'public/SecurityImages/ai-generated-8640893_1920.jpg',
+          image:image29,
           title: "AI in Cybersecurity: Enhancing Defense Against Sophisticated Threats",
           author: "Sophia Martinez",
           publishedDate: "2025-01-04",
@@ -294,7 +338,7 @@ const blogData=[
         },
         {
           id: 30,
-          image:'public/AppIamges/finance-8045003_1920.jpg',
+          image:image30,
           title: "Top 10 Productivity Apps to Boost Your Efficiency in 2025",
           author: "Alex Johnson",
           publishedDate: "2025-01-12",
@@ -304,7 +348,7 @@ const blogData=[
         },
         {
           id: 31,
-          image:'public/AppIamges/white-male-1856187_1920.jpg',
+          image:image31,
           title: "The Rise of Health and Fitness Apps: Revolutionizing Wellness",
           author: "Emily Brown",
           publishedDate: "2025-01-10",
@@ -314,7 +358,7 @@ const blogData=[
         },
         {
           id: 32,
-          image:'public/AppIamges/app-8764508_1920.jpg',
+          image:image32,
           title: "Top 5 Finance Apps for Managing Your Money Effectively",
           author: "Michael Smith",
           publishedDate: "2025-01-08",
@@ -324,7 +368,7 @@ const blogData=[
         },
         {
           id: 33,
-          image:'public/AppIamges/ai-generated-8365422_1920.jpg',
+          image:image33,
           title: "Best Apps for Remote Work: Enhancing Collaboration and Communication",
           author: "Sophia Martinez",
           publishedDate: "2025-01-06",
@@ -334,7 +378,7 @@ const blogData=[
         },
         {
           id: 34,
-          image:'public/AppIamges/app-8178740_1920.jpg',
+          image:image34,
           title: "Educational Apps That Are Redefining Learning for Students",
           author: "Olivia Taylor",
           publishedDate: "2025-01-04",
@@ -344,7 +388,7 @@ const blogData=[
         },
         {
           id: 35,
-          image:'public/WorkImages/ai-generated-9146428_1920.jpg',
+          image:image35,
           title: "Work-Life Balance in 2025: How to Stay Productive Without Burning Out",
           author: "Sophia Carter",
           publishedDate: "2025-01-12",
@@ -354,7 +398,7 @@ const blogData=[
         },
         {
           id: 36,
-          image:'public/WorkImages/office-8748036_1920.png',
+          image:image36,
           title: "Remote Work Trends: Adapting to the New Normal",
           author: "Michael Brown",
           publishedDate: "2025-01-10",
@@ -364,7 +408,7 @@ const blogData=[
         },
         {
           id: 37,
-          image:'public/WorkImages/ai-generated-7861355_1920.jpg',
+          image:image37,
           title: "Top 10 Skills to Succeed in the Modern Workplace",
           author: "Emma Williams",
           publishedDate: "2025-01-08",
@@ -374,7 +418,7 @@ const blogData=[
         },
         {
           id: 38,
-          image:'public/WorkImages/ai-generated-9030608_1920.jpg',
+          image:image38,
           title: "How to Stay Focused and Avoid Distractions at Work",
           author: "Olivia Taylor",
           publishedDate: "2025-01-06",
@@ -384,7 +428,7 @@ const blogData=[
         },
         {
           id: 39,
-          image:'public/WorkImages/entrepreneur-696959_1920.jpg',
+          image:image39,
           title: "The Importance of Networking in Career Growth",
           author: "Ethan Johnson",
           publishedDate: "2025-01-04",
@@ -395,7 +439,7 @@ const blogData=[
 
         {
           id: 40,
-          image:'public/EnterPriseImages/digitization-7261158_1920.jpg',
+          image:image40,
           title: "Digital Transformation in Enterprises: Key Strategies for 2025",
           author: "Sophia Martinez",
           publishedDate: "2025-01-12",
@@ -405,7 +449,7 @@ const blogData=[
         },
         {
           id: 41,
-          image:'public/EnterPriseImages/ai-generated-8723113_1920.jpg',
+          image:image41,
           title: "The Role of Enterprise Resource Planning (ERP) Systems in Business Growth",
           author: "Michael Brown",
           publishedDate: "2025-01-10",
@@ -415,7 +459,7 @@ const blogData=[
         },
         {
           id: 42,
-          image:'public/EnterPriseImages/woman-8656655_1920.jpg',
+          image:image42,
           title: "Enterprise Security: Best Practices for Protecting Data and Systems",
           author: "Emma Carter",
           publishedDate: "2025-01-08",
@@ -425,7 +469,7 @@ const blogData=[
         },
         {
           id: 43,
-          image:'public/EnterPriseImages/hands-6135743_1920.jpg',
+          image:image43,
           title: "Sustainability in Enterprises: How Businesses Can Lead the Green Revolution",
           author: "Ethan Johnson",
           publishedDate: "2025-01-06",
@@ -435,7 +479,7 @@ const blogData=[
         },
         {
           id: 44,
-          image:'public/EnterPriseImages/ai-generated-8592394_1920.jpg',
+          image:image44,
           title: "AI-Powered Solutions for Enterprise Efficiency and Innovation",
           author: "Olivia Taylor",
           publishedDate: "2025-01-04",

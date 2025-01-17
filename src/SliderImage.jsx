@@ -1,11 +1,14 @@
+import img1 from '/public/desk-1284085_1920.jpg'
+import img2 from '/public/notebooks-569121.jpg'
+
 const Imagedata=[
     {
-        image: 'public/desk-1284085_1920.jpg',
+        image: img1,
         content:'Start your blog today and join a community of writers and readers who are passionate about sharing their stories and ideas.We offer everything you need to get started ,for helpful tips and tutorials...'
 
     },
     {
-        image:'public/notebooks-569121.jpg' ,
+        image:img2 ,
         content:'Life is a collection of stories waiting to be told. From everyday adventures to deep reflections, join us on a journey to explore inspiration, self-care, travel, and the little things that bring joy. Discover how to create a life that feels as good as it looks!'
 
     },
